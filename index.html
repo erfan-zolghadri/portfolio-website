@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Erfan Zolghadri</title>
+</head>
+
+<body id="home">
+    <nav id="nav">
+        <div class="wrapper">
+            <div class="nav-wrapper">
+                <a href="./index.html" class="nav-logo">
+                    Portfo<span class="text-primary">lio.</span>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <svg class="nav-btn">
+                    <use xlink:href="./sprites/solid.svg#bars" class="nav-icon"></use>
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <header id="header" class="bg-dark text-light">
+        <div class="wrapper">
+            <div class="header-wrapper">
+                <div class="hero">
+                    <p class="title-sm">
+                        Hey there<span class="text-primary">,</span> I'm
+                    </p>
+                    <h1 class="title-xlg">John Doe</span>
+                    </h1>
+                    <p class="title-md">
+                        And I'm a <span class="text-primary hero-strings"></span>
+                    </p>
+                    <div class="hero-links">
+                        <a href="#" class="btn btn-ripple" download>Download CV</a>
+                        <div class="socials">
+                            <a href="https://github.com" class="social-icon-wrapper" target="_blank">
+                                <svg class="social-icon">
+                                    <use xlink:href="./sprites/brands.svg#github"></use>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com" class="social-icon-wrapper" target="_blank">
+                                <svg class="social-icon">
+                                    <use xlink:href="./sprites/brands.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="bg-light text-dark">
+            <div class="wrapper">
+                <h2 class="title-section">
+                    <span class="title-lg text-dark">About Me</span>
+                    <span class="title-section-sub title-section-sub-dark text-primary">Who I
+                        Am</span>
+                </h2>
+                <div class="about-wrapper">
+                    <div class="about-img-wrapper fade">
+                        <img src="./img/profile.png" alt="Profile" class="about-img">
+                    </div>
+                    <div class="about-content fade">
+                        <h3 class="title-sm">I'm John Doe and I'm a <span class="text-primary">Web
+                                Developer</span></h3>
+                        <p class="about-text">
+                            I'm a Web Developer based in Tehran, Iran, and I'm very
+                            passionate and dedicated to my work.
+                        </p>
+                        <table class="about-info">
+                            <tbody>
+                                <tr class="about-row">
+                                    <td class="about-item">
+                                        <svg class="about-icon">
+                                            <use xlink:href="./sprites/solid.svg#chevron-right"></use>
+                                        </svg>
+                                        <span>
+                                            <span class="about-info-title">Birthday:</span> 4 May 1998
+                                        </span>
+                                    </td>
+                                    <td class="about-item">
+                                        <svg class="about-icon">
+                                            <use xlink:href="./sprites/solid.svg#chevron-right"></use>
+                                        </svg>
+                                        <span>
+                                            <span class="about-info-title">Age: </span>
+                                            <span class="about-age"></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="about-row">
+                                    <td class="about-item">
+                                        <svg class="about-icon">
+                                            <use xlink:href="./sprites/solid.svg#chevron-right"></use>
+                                        </svg>
+                                        <span>
+                                            <span class="about-info-title">Degree:</span> Master
+                                        </span>
+                                    </td>
+                                    <td class="about-item">
+                                        <svg class="about-icon">
+                                            <use xlink:href="./sprites/solid.svg#chevron-right"></use>
+                                        </svg>
+                                        <span>
+                                            <span class="about-info-title">City:</span> Tehran, Iran
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="bg-dark text-light">
+            <div class="wrapper">
+                <h2 class="title-section">
+                    <span class="title-lg text-light">My Services</span>
+                    <span class="title-section-sub title-section-sub-light text-primary">What I
+                        Provide</span>
+                </h2>
+                <div class="cards-services">
+                    <article class="card card-services fade">
+                        <svg class="card-icon">
+                            <use xlink:href="./sprites/solid.svg#paint-brush"></use>
+                        </svg>
+                        <h3 class="card-title title-md">Web Design</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet quasi hic
+                            fugiat consequuntur molestiae.
+                        </p>
+                    </article>
+                    <article class="card card-services fade">
+                        <svg class="card-icon">
+                            <use xlink:href="./sprites/solid.svg#code"></use>
+                        </svg>
+                        <h3 class="card-title title-md">Web Development</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet quasi hic
+                            fugiat consequuntur molestiae.
+                        </p>
+                    </article>
+                    <article class="card card-services fade">
+                        <svg class="card-icon">
+                            <use xlink:href="./sprites/solid.svg#camera"></use>
+                        </svg>
+                        <h3 class="card-title title-md">Responsive Design</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet quasi hic
+                            fugiat consequuntur molestiae.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="bg-light text-dark">
+            <div class="wrapper">
+                <h2 class="title-section">
+                    <span class="title-lg text-dark">My Skills</span>
+                    <span class="title-section-sub title-section-sub-dark text-primary">What I
+                        Know</span>
+                </h2>
+                <div class="skills-wrapper">
+                    <div class="fade">
+                        <h3 class="title-sm">My creative <span class="text-primary">skills</span> and experience</h3>
+                        <p class="skills-text">
+                            I have acquired the skills necessary to build great and
+                            premium websites.
+                        </p>
+                        <a href="#" class="btn btn-simple" download>Download CV</a>
+                    </div>
+                    <div class="fade">
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar skill-bar-html"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar skill-bar-css"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percent">20%</span>
+                            </div>
+                            <div class="skill-bar skill-bar-js"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar skill-bar-python"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span class="skill-name">Django</span>
+                                <span class="skill-percent">20%</span>
+                            </div>
+                            <div class="skill-bar skill-bar-django"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="bg-dark text-light">
+            <div class="wrapper">
+                <h2 class="title-section">
+                    <span class="title-lg text-light">Testimonials</span>
+                    <span class="title-section-sub title-section-sub-light text-primary">What Others Say</span>
+                </h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <article class="card card-testimonials swiper-slide">
+                            <div class="card-img-wrapper">
+                                <img src="./img/testimonials/profile-01.jpeg" alt="" class="card-img">
+                            </div>
+                            <h3 class="card-title title-md">John Scott</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident aspernatur minima ex
+                                repellat illum nihil deleniti unde, accusamus exercitationem minus.
+                            </p>
+                        </article>
+                        <article class="card card-testimonials swiper-slide">
+                            <div class="card-img-wrapper">
+                                <img src="./img/testimonials/profile-02.jpeg" alt="" class="card-img">
+                            </div>
+                            <h3 class="card-title title-md">Scott Anka</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident aspernatur minima ex
+                                repellat illum nihil deleniti unde, accusamus exercitationem minus.
+                            </p>
+                        </article>
+                        <article class="card card-testimonials swiper-slide">
+                            <div class="card-img-wrapper">
+                                <img src="./img/testimonials/profile-03.jpeg" alt="" class="card-img">
+                            </div>
+                            <h3 class="card-title title-md">Jack Black</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident aspernatur minima ex
+                                repellat illum nihil deleniti unde, accusamus exercitationem minus.
+                            </p>
+                        </article>
+                        <article class="card card-testimonials swiper-slide">
+                            <div class="card-img-wrapper">
+                                <img src="./img/testimonials/profile-04.jpeg" alt="" class="card-img">
+                            </div>
+                            <h3 class="card-title title-md">Mary Cage</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident aspernatur minima ex
+                                repellat illum nihil deleniti unde, accusamus exercitationem minus.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="contact" class="bg-light text-dark">
+            <div class="wrapper">
+                <h2 class="title-section">
+                    <span class="title-lg text-dark">Contact Me</span>
+                    <span class="title-section-sub title-section-sub-dark text-primary">Get In Touch</span>
+                </h2>
+                <div class="contact-wrapper">
+                    <div class="fade">
+                        <h3 class="title-sm">Get in touch</h3>
+                        <p class="contact-text">
+                            If you wanna get in touch or talk to me about a project collaboration, fill up the form or
+                            send an email to <a href="mailto:johndoe@gmail.com" target="_top"
+                                class="text-primary">johndoe@gmail.com</a>.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <div class="contact-icon-wrapper">
+                                    <svg class="contact-icon">
+                                        <use xlink:href="./sprites/solid.svg#phone"></use>
+                                    </svg>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="contact-title">Call:</h4>
+                                    <a href="tel:09210123456" class="contact-info-text">+98 921 012 3456</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <div class="contact-icon-wrapper">
+                                    <svg class="contact-icon">
+                                        <use xlink:href="./sprites/solid.svg#envelope"></use>
+                                    </svg>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="contact-title">Email:</h4>
+                                    <a href="mailto:johndoe@gmail.com" target="_top"
+                                        class="contact-info-text">johndoe@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <div class="contact-icon-wrapper">
+                                    <svg class="contact-icon">
+                                        <use xlink:href="./sprites/solid.svg#map-marker-alt"></use>
+                                    </svg>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="contact-title">Location:</h4>
+                                    <p class="contact-info-text">Karaj, Rajaei shahr</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fade">
+                        <h3 class="title-sm">Message me</h3>
+                        <form class="contact-form">
+                            <div class="contact-fields">
+                                <input type="text" name="name" class="contact-field contact-field-name" required
+                                    placeholder="Name*">
+                                <input type="email" name="email" class="contact-field contact-field-email" required
+                                    placeholder="Email*">
+                                <input type="text" name="subject" class="contact-field contact-field-subject" required
+                                    placeholder="Subject*">
+                                <textarea name="message" class="contact-field contact-field-message" required
+                                    placeholder="Project description*"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-simple">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
